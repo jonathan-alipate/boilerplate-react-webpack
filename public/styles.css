@@ -1,7 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+
+/* background colour */
 .towpink {
 background-color: rgb(245, 153, 159);
 }
-
+/* normal text styling */
 .text {
   width: 30vw;
   text-align: center;
@@ -10,6 +17,7 @@ background-color: rgb(245, 153, 159);
   font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+/* hyperlink styling */
 .hyperlinks {
   text-align: center;
   color: #444444;
@@ -25,11 +33,10 @@ background-color: rgb(245, 153, 159);
   display: block;
   margin-left: auto;
   margin-right: auto 
-
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-align-items: center;
+/* social media links */
+.socialmedia {
+  width: 2vw;
+  filter: brightness(0%);
 }
