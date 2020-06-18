@@ -1,7 +1,8 @@
 body {
   display: flex;
   flex-direction: column;
-align-items: center;
+  align-items: center;
+  min-height: 100vmin;
 }
 
 /* background colour */
@@ -38,10 +39,9 @@ background-color: rgb(245, 153, 159);
 /* social media links */
 .socialmedia {
   width: 3vw;
-
-
 }
 
 .logo-container img {
-  margin: 0px 10px;
+  margin: 0px 15px;
+  padding-top: 10px;
 }
