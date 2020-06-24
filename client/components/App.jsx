@@ -8,7 +8,7 @@ class App extends React.Component {
   }
 
   bringMeAGif = (query) => {
-    request.get('https://api.giphy.com/v1/gifs/search' + '?q=' + query + '&api_key=NihSzDWuMozHJhaq01FDhNnDQMlN0mU5&limit=20')
+    request.get('/api/v1/' + query)
       .then(res => {
         const randomNo = Math.floor(Math.random() * Math.floor(20))
         this.setState({
