@@ -27,7 +27,7 @@ class App extends React.Component {
             <input type="text" name="gif-name" id="gif-name"/>
           </label>
           <button onClick={() => this.bringMeAGif(document.getElementById('gif-name').value)}>Bring me a gif</button>
-        
+        <hr></hr>
         <img src={this.state.url} width="400" height="400"></img>
       </>
     )
